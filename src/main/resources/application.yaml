@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: streams-amigoscode
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
